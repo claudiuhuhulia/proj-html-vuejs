@@ -44,5 +44,6 @@
 main {
     background-image: url(../assets/img/avadabarbers-reviewsbackground.jpg);
     background-size: cover;
+    height: 1000px;
 }
 </style>

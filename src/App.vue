@@ -3,10 +3,10 @@ import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppAward from './components/AppAward.vue';
 import AppGrooming from './components/AppGrooming.vue';
-import AppShop from './components/AppShop.vue'
+import AppShop from './components/AppShop.vue';
+import AppReviw from './components/AppReviews.vue'
 export default {
-  components: { AppHeader, AppFooter, AppAward, AppGrooming, AppShop }
-
+  components: { AppHeader, AppFooter, AppAward, AppGrooming, AppShop, AppReviw }
 }
 
 </script>
@@ -19,6 +19,8 @@ export default {
   <AppGrooming />
 
   <AppShop />
+
+  <AppReviw />
 </template>
 
 <style lang="scss">
