@@ -1,8 +1,9 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppAward from './components/AppAward.vue'
 export default {
-  components: { AppHeader, AppFooter }
+  components: { AppHeader, AppFooter, AppAward }
 
 }
 
@@ -10,6 +11,8 @@ export default {
 
 <template>
   <AppHeader />
+
+  <AppAward />
 </template>
 
 <style lang="scss">

@@ -40,6 +40,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../assets/scss/style.scss' as *;
+
 a,
 h1 {
     color: white;
@@ -54,17 +56,11 @@ h1 {
 header {
     background-image: url(../assets/img/avadabarbers-homepage-hero-bg.jpg);
     background-size: cover;
-
+    height: 950px;
 }
 
 .left-jumbo {
     .title {
-        h1 {
-            font-family: abril-fatface;
-            font-size: 6rem;
-            font-weight: bold
-        }
-
         .division-bar {
             border-bottom: 4px solid #be9359;
             width: 250px;
@@ -75,18 +71,6 @@ header {
         font-size: 1.3rem;
         color: #686868;
     }
-
-    .my-btn {
-        border: 2px solid #be9359;
-        padding: 10px;
-        color: #be9359;
-        width: 200px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 1.3rem;
-        cursor: pointer;
-    }
-
 }
 
 .right-jumbo {
