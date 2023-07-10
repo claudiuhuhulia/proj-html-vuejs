@@ -7,8 +7,6 @@
         <div class="my-btn mt-2">
             MEET YOUR NEW BARBER
         </div>
-
-
     </main>
     <svg class="fusion-big-triangle-candy " xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
         viewBox="0 0 100 100" preserveAspectRatio="none" style="fill:#ffffff;padding:0;">
@@ -25,16 +23,6 @@ svg {
 
 .my-btn {
     width: 300px;
-}
-
-h5 {
-    color: #be9359;
-}
-
-h1 {
-    letter-spacing: -2px;
-    color: #b1b1b1;
-    font-size: 5rem;
 }
 
 main {

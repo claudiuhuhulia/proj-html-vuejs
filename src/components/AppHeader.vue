@@ -47,10 +47,13 @@ h1 {
     color: white;
 }
 
+h1 {
+    font-size: 6rem;
+}
+
 #bars {
     font-size: 1.5rem;
     margin-left: 25px;
-
 }
 
 header {
@@ -71,6 +74,10 @@ header {
         font-size: 1.3rem;
         color: #686868;
     }
+}
+
+.my-btn {
+    width: 200px;
 }
 
 .right-jumbo {
