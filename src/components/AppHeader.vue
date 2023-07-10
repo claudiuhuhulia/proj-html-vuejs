@@ -21,13 +21,16 @@ export default {
             </nav>
         </div>
 
+
+        <!-- TITLE & JUMBOTRON -->
         <div class="container jumbotron d-flex align-items-center justify-content-between">
             <div class="left-jumbo">
                 <div class="title">
                     <h1>Barber Shop</h1>
+                    <div class="division-bar my-3"></div>
                 </div>
-                <sub>The Pinnacle of Male Grooming</sub>
-                <div class="my-btn">Learn More</div>
+                <div class="sub my-5">The Pinnacle of Male Grooming</div>
+                <div class="my-btn">LEARN MORE</div>
             </div>
             <div class="right-jumbo">
                 <img src="../assets/img/avadabarbers_hero_focalmirror.png" alt="header pic">
@@ -51,6 +54,38 @@ h1 {
 header {
     background-image: url(../assets/img/avadabarbers-homepage-hero-bg.jpg);
     background-size: cover;
+
+}
+
+.left-jumbo {
+    .title {
+        h1 {
+            font-family: abril-fatface;
+            font-size: 6rem;
+            font-weight: bold
+        }
+
+        .division-bar {
+            border-bottom: 4px solid #be9359;
+            width: 250px;
+        }
+    }
+
+    .sub {
+        font-size: 1.3rem;
+        color: #686868;
+    }
+
+    .my-btn {
+        border: 2px solid #be9359;
+        padding: 10px;
+        color: #be9359;
+        width: 200px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
 
 }
 
