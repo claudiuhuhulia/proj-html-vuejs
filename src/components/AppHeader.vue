@@ -1,6 +1,17 @@
 <script>
+import AppOverlay from './AppOverlay.vue'
 export default {
-
+    components: { AppOverlay },
+    data() {
+        return {
+            isVisible: false
+        }
+    },
+    methods: {
+        toggleVisible() {
+            this.isVisible = !this.isVisible
+        }
+    }
 }
 </script>
 
@@ -16,10 +27,12 @@ export default {
                     <font-awesome-icon :icon="['fas', 'cart-shopping']" />
                 </a>
                 <a href="#">
-                    <font-awesome-icon :icon="['fas', 'bars']" id="bars" />
+                    <font-awesome-icon @click="isVisible = !isVisible" :icon="['fas', 'bars']" id="bars" />
                 </a>
             </nav>
         </div>
+
+        <AppOverlay v-if="isVisible" @close-clicked="toggleVisible" />
 
 
         <!-- TITLE & JUMBOTRON -->
@@ -46,6 +59,7 @@ a,
 h1 {
     color: white;
 }
+
 
 h1 {
     font-size: 6rem;

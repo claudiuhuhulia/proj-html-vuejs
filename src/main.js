@@ -16,9 +16,11 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
  import { faFacebookF } from '@fortawesome/free-brands-svg-icons' 
  import { faTwitter } from '@fortawesome/free-brands-svg-icons' 
  import { faInstagram } from '@fortawesome/free-brands-svg-icons' 
+ import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons' 
+
 
 
 /* add icons to the library */
-library.add(faCartShopping, faBars, faYoutube, faFacebookF, faTwitter, faInstagram )
+library.add(faCartShopping, faBars, faYoutube, faFacebookF, faTwitter, faInstagram, faRectangleXmark )
 
 createApp(App).component('FontAwesomeIcon',FontAwesomeIcon).mount('#app')
