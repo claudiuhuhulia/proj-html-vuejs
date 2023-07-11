@@ -31,11 +31,7 @@
 <style lang="scss" scoped>
 @use '../assets/scss/style.scss' as *;
 
-.my-card {
-    height: 450px;
-    width: 350px;
-    border: 1px dashed black;
-}
+
 
 .grooming-shop {
     gap: 3px;

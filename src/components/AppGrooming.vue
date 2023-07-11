@@ -25,11 +25,7 @@
 <style scoped lang="scss">
 @use '../assets/scss/style.scss' as *;
 
-.my-card {
-    height: 350px;
-    width: 350px;
-    border: 1px dashed black;
-}
+
 
 .my-btn {
     width: 300px;
