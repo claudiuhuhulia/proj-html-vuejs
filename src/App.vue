@@ -2,12 +2,19 @@
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppAward from './components/AppAward.vue';
-import AppGrooming from './components/AppGrooming.vue';
+import AppServices from './components/AppServices.vue';
 import AppShop from './components/AppShop.vue';
 import AppReviw from './components/AppReviews.vue'
 import AppPosts from './components/AppPosts.vue'
+import { store } from '../src/data/store.js'
 export default {
-  components: { AppHeader, AppFooter, AppAward, AppGrooming, AppShop, AppReviw, AppPosts }
+  components: { AppHeader, AppFooter, AppAward, AppServices, AppShop, AppReviw, AppPosts },
+  data() {
+    return {
+      store
+    }
+  }
+
 }
 
 </script>
@@ -17,7 +24,7 @@ export default {
 
   <AppAward />
 
-  <AppGrooming />
+  <AppServices :services="store.services" />
 
   <AppShop />
 

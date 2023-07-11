@@ -10,8 +10,6 @@ export default {
     <div class="overlay-nav d-flex flex-column align-items-center justify-content-center">
 
         <font-awesome-icon icon="fa-solid fa-rectangle-xmark" class="close-btn" @click="$emit('close-clicked')" />
-
-
         <a href="#" id="home">Home</a>
         <a href="#" id="aboutus">About Us</a>
         <a href="#">Serices</a>
