@@ -14,7 +14,6 @@
         <div class="my-card"></div>
     </section>
 
-
     <div class="footer-section d-flex justify-content-center my-5">
         <div class="my-btn my-5">
             READ ABOUT OUR SERVICES
@@ -24,8 +23,6 @@
 
 <style scoped lang="scss">
 @use '../assets/scss/style.scss' as *;
-
-
 
 .my-btn {
     width: 300px;

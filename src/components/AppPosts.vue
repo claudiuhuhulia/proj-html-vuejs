@@ -14,7 +14,7 @@
         </section>
 
 
-        <div class="footer-section d-flex justify-content-center my-5">
+        <div class="footer-section d-flex justify-content-center py-5">
             <div class="my-btn my-5">
                 READ MORE FROM OUR BLOG
             </div>

@@ -24,6 +24,8 @@ export default {
   <AppReviw />
 
   <AppPosts />
+
+  <AppFooter />
 </template>
 
 <style lang="scss">
