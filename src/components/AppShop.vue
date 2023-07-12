@@ -7,7 +7,7 @@
         <path d="M0 100 L50 2 L100 100 Z"></path>
     </svg>
     <main>
-        <div class="title-section d-flex justify-content-center align-items-center flex-column ">
+        <div class="title-section d-flex justify-content-center align-items-center flex-column pt-5">
             <h5>WE HAVE YOU COVERED</h5>
             <h1>Avada Grooming Products</h1>
         </div>
