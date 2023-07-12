@@ -26,7 +26,7 @@ export default {
 
   <AppServices :services="store.services" />
 
-  <AppShop />
+  <AppShop :products="store.products" />
 
   <AppReviw />
 

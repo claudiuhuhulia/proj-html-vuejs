@@ -44,27 +44,6 @@ p {
     color: grey;
 }
 
-.my-card {
-
-    p,
-    h5,
-    img {
-        padding-bottom: 25px;
-    }
-
-    h5 {
-        font-family: abril-fatface;
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
-    p {
-        line-height: 35px;
-    }
-}
-
-
-
 img {
     height: 40%;
 }

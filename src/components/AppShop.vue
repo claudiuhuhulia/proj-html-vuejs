@@ -1,4 +1,16 @@
-<script></script>
+<script>
+export default {
+    props: {
+        products: Object
+    },
+    methods: {
+        imgUrl(img) {
+            const url = new URL(`../assets/img/${img}`, import.meta.url);
+            return url.href
+        }
+    }
+}
+</script>
 
 
 <template>
@@ -12,11 +24,15 @@
             <h1>Avada Grooming Products</h1>
         </div>
 
-        <section class=" grooming-shop  d-flex justify-content-center mt-5 ">
-            <div class="my-card "></div>
-            <div class="my-card "></div>
-            <div class="my-card "></div>
-            <div class="my-card "></div>
+        <section class="products-shop  d-flex justify-content-center align-items-center ">
+            <div v-for="product in products" :id="product.id"
+                class="my-card  d-flex justify-content-center align-items-center flex-column">
+                <img :src="imgUrl(product.img)" alt="product">
+                <h5>{{ product.name }}</h5>
+                <p class="text-center">{{ product.price }}</p>
+
+            </div>
+
 
         </section>
 
@@ -32,10 +48,26 @@
 @use '../assets/scss/style.scss' as *;
 
 
-
-.grooming-shop {
-    gap: 3px;
+img {
+    height: 115%;
 }
+
+.products-shop {
+    gap: 3px;
+    margin-top: 120px;
+}
+
+.my-card {
+    p {
+        font-size: 1.4rem;
+        color: #be9359;
+    }
+
+    h5 {
+        padding: 0;
+    }
+}
+
 
 main {
     background-image: url(../assets/img/avadabarbers-reviewsbackground.jpg);

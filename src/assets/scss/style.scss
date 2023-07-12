@@ -1,3 +1,5 @@
+
+
 .my-btn {
     border: 2px solid #be9359;
     padding: 10px;
@@ -24,4 +26,22 @@ h1 {
     height: 350px;
     width: 350px;
     border: 1px dashed black;
+}
+.my-card {
+
+    p,
+    h5,
+    img {
+        padding-bottom: 25px;
+    }
+
+    h5 {
+        font-family: abril-fatface;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    p {
+        line-height: 35px;
+    }
 }

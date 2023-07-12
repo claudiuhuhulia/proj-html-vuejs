@@ -24,21 +24,25 @@ services:[
 ],
 products:[
     {
+        id:1,
         img:'brush_dark.png',
         name:'Brush',
         price:'$15.00'
     },
     {
+        id:2,
         img:'scissors.png',
         name:'Scissors',
         price:'$85.00'
     },
     {
+        id:3,
         img:'hot_oil_dark.png',
         name:'Hot Oil',
         price:'$15.00'
     },
     {
+        id:4,
         img:'straight_razor_dark.png',
         name:'Straight Razor',
         price:'$30.00'
