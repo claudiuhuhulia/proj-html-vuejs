@@ -28,7 +28,7 @@ export default {
 
   <AppShop :products="store.products" />
 
-  <AppReviw />
+  <AppReviw :reviews="store.reviews" />
 
   <AppPosts />
 

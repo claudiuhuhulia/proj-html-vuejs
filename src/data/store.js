@@ -47,5 +47,21 @@ products:[
         name:'Straight Razor',
         price:'$30.00'
     },
+],
+reviews:[{
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.',
+    name:'John Doe',
+    img:'avadabarbers-trimcut-gallery6.jpg'
+},
+{
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.',
+    name:'Pete Jones',
+    img:'avadabarbers-trimcut-gallery3.jpg'
+},
+{
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis eleifend ante ut sagittis. Sed sodales, urna et imperdiet placerat, ex nisi aliquam orci, ac varius odio libero et arcu.',
+    name:'Mark Wilson',
+    img:'avadabarbers-trimcut-gallery7.jpg'
+},
 ]
 })

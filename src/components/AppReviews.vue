@@ -1,4 +1,17 @@
-<script></script>
+<script>
+export default {
+    props: {
+        reviews: Object
+    },
+
+    methods: {
+        imgUrl(img) {
+            const url = new URL(`../assets/img/${img}`, import.meta.url);
+            return url.href
+        }
+    }
+}
+</script>
 
 <template>
     <div class="container">
@@ -17,12 +30,20 @@
         </div>
         <div class="review-title d-flex justify-content-end align-items-center flex-column">
             <h5>WHAT PEOPLE SAY</h5>
-            <h1>Review</h1>
+            <h1>Reviews</h1>
         </div>
         <section class="review-section  d-flex justify-content-between my-5 ">
-            <div class="my-card "></div>
-            <div class="my-card "></div>
-            <div class="my-card "></div>
+            <div v-for="review in reviews" :id="review.id"
+                class="my-card d-flex flex-column justify-content-center align-items-center">
+                <p class="text-center px-4">{{ review.text }}</p>
+                <figure>
+                    <img :src="imgUrl(review.img)" alt="profile">
+                </figure>
+                <h5>{{ review.name }}</h5>
+
+            </div>
+
+
         </section>
 
     </div>
@@ -68,6 +89,32 @@ p {
 
 .my-btn {
     width: 200px;
+
+}
+
+.review-section {
+    p {
+        padding: 0;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    figure {
+        height: 150px;
+        width: 150px;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            border-radius: 50%;
+            display: block;
+            padding: 0;
+        }
+    }
 
 }
 
