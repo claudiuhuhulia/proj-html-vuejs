@@ -30,7 +30,7 @@ export default {
 
   <AppReviw :reviews="store.reviews" />
 
-  <AppPosts />
+  <AppPosts :posts="store.posts" />
 
   <AppFooter />
 </template>

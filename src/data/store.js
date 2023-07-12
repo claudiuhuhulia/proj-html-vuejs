@@ -63,5 +63,23 @@ reviews:[{
     name:'Mark Wilson',
     img:'avadabarbers-trimcut-gallery7.jpg'
 },
-]
+],
+posts:[{
+    id:1,
+    img:'avadabarbers-second-blog-700x441.jpg',
+    title:'Avada Barbers Now Open',
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,'
+},
+{
+    id:2,
+    img:'avadabarbers-ourservice-blog-700x441.jpg',
+    title:'Choosing The Right Barber',
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,'
+},
+{
+    id:3,
+    img:'avadabarbers-choosing-blog-700x441.jpg',
+    title:'Quick Service Guide',
+    text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,'
+}]
 })
