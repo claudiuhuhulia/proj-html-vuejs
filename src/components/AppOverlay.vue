@@ -38,22 +38,9 @@ export default {
                 id: 9,
                 text: 'Contact Us'
             }],
-            section: ''
         }
     },
     emits: ['close-clicked'],
-    computed: {
-        CurrentSection() {
-            return this.section = this.setCurrentSection
-        }
-    },
-
-    methods: {
-        setCurrentSection(id) {
-            return this.sections[id]
-        }
-    },
-
 }
 
 </script>
@@ -61,12 +48,8 @@ export default {
 
 <template>
     <div class="overlay-nav d-flex flex-column align-items-center justify-content-center">
-
         <font-awesome-icon icon="fa-solid fa-rectangle-xmark" class="close-btn" @click="$emit('close-clicked')" />
-        <a v-for="section in sections" :key="section.id" href="#" @mouseover=" setCurrentSection(section.id)">{{
-            section.text }}</a>
-
-
+        <a v-for="section in sections" :key="section.id" href="#">{{ section.text }}</a>
     </div>
 </template>
 
