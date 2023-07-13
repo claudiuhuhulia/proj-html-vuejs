@@ -30,7 +30,6 @@ export default {
                 <p class="text-center">{{ post.text }}</p>
 
             </div>
-
         </section>
 
 

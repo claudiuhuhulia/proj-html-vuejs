@@ -79,7 +79,7 @@ posts:[{
 {
     id:3,
     img:'avadabarbers-choosing-blog-700x441.jpg',
-    title:'Quick Service Guide',
+    title:'The Quick Service Guide For You',
     text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut dapibus magna. Praesent semper,'
 }]
 })
